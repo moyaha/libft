@@ -6,13 +6,13 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 09:43:12 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/05/31 10:01:29 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/04 10:21:50 by event            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int c, locale_t loc)
+int	ft_toupper(int c)
 {
 	unsigned char x;
 

@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/28 11:23:52 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/05/29 09:04:47 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/04 10:28:36 by event            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,6 @@
 
 void	*ft_memset(void *b, int c, size_t len)
 {
-	int				i;
-	unsigned char	rvalue;
 	char			*str;
 
 	str = b;

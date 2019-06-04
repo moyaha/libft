@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 14:08:29 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/05/22 11:46:49 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/04 10:16:08 by event            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 char	*ft_strncat(char *s1, const char *s2, size_t n)
 {
 	int t;
-	int p;
+	size_t p;
 
 	t = 0;
 	while (s1[t])
