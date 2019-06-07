@@ -32,10 +32,3 @@ void    ft_putnbr(int n)
     else
         ft_putchar(n + '0');
 }
-
-int	main(void)
-{
-	ft_putnbr(-2);
-	printf("%d\n", 1);
-	return (0);
-}
