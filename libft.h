@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 23:15:55 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/04 10:37:45 by event            ###   ########.fr       */
+/*   Updated: 2019/06/07 13:58:58 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,6 +49,12 @@ void	ft_strdel(char **as);
 void	ft_strclr(char *s);
 void	ft_striter(char *s, void (*f) (char *));
 void	ft_striteri(char *s, void (*f) (unsigned int, char *));
+void	ft_putstr(char const *s);
+void	ft_putchar(char c);
+void	ft_putnbr(int n);
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char const *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 
