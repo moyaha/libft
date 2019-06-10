@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 23:15:55 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/07 13:58:58 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/10 09:36:07 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s);
 char	**ft_strsplit(char const *s);
 char	*ft_itoa(int n);
+void	ft_bzero(void *s, size_t n);
 void	ft_strdel(char **as);
 void	ft_strclr(char *s);
 void	ft_striter(char *s, void (*f) (char *));
@@ -55,6 +56,10 @@ void	ft_putnbr(int n);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char const *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+void	ft_putendl(char const *s);
+void	ft_putendl_fd(char const *s, int fd);
+void	*ft_memalloc(size_t size);
+void	ft_memdel(void **ap);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 
