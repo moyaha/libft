@@ -23,4 +23,5 @@ void    *ft_memalloc(size_t size)
         return (dtr);
     }
     return (0);
+}
 
