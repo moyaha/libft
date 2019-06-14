@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/14 08:11:32 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/14 08:18:58 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/14 08:29:54 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,3 @@ int		ft_strnequ(char const *s1, char const *s2, size_t n)
 	else
 		return (0);
 }
-
-]
