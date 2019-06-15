@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 23:15:55 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/14 15:12:46 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/14 23:13:27 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ char	*ft_strmapi(char const *s, char (*f) (unsigned int, char));
 char	*ft_strsub(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s);
-char	**ft_strsplit(char const *s);
+char	**ft_strsplit(char const *s, char c);
 char	*ft_itoa(int n);
 void	ft_bzero(void *s, size_t n);
 void	ft_strdel(char **as);
