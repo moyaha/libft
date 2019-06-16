@@ -6,12 +6,11 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 14:08:29 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/04 10:16:08 by event            ###   ########.fr       */
+/*   Updated: 2019/06/16 12:28:24 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdio.h>
+#include "libft.h"
 
 char	*ft_strncat(char *s1, const char *s2, size_t n)
 {

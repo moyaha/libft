@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 23:15:55 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/14 23:13:27 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/16 12:07:43 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ char	*ft_strtrim(char const *s);
 char	**ft_strsplit(char const *s, char c);
 char	*ft_itoa(int n);
 void	ft_bzero(void *s, size_t n);
+void	*ft_memset(void *b, int c, size_t len);
 void	ft_strdel(char **as);
 void	ft_strclr(char *s);
 void	ft_striter(char *s, void (*f) (char *));

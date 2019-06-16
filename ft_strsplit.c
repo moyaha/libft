@@ -6,12 +6,11 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/14 23:07:32 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/15 05:56:37 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/16 13:25:58 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 static	size_t	ft_num_words(char const *s, char c)
 {

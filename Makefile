@@ -6,7 +6,7 @@
 #    By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/25 05:33:28 by pmoyaha           #+#    #+#              #
-#    Updated: 2019/06/10 09:00:52 by pmoyaha          ###   ########.fr        #
+#    Updated: 2019/06/16 12:34:31 by pmoyaha          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,6 @@ SRC = ft_putchar.c\
 	  ft_strncmp.c\
 	  ft_strncat.c\
 	  ft_strlcat.c\
-	  ft_strstr.c\
 	  ft_strnstr.c\
 	  ft_memmove.c\
 	  ft_memccpy.c\
@@ -91,7 +90,6 @@ OBJECT = ft_putchar.o\
 		 ft_strncpy.o\
 		 ft_strncmp.o\
 		 ft_strncat.o\
-		 ft_strstr.o\
 		 ft_strnstr.o\
 		 ft_memmove.o\
 		 ft_memccpy.o\
@@ -140,5 +138,5 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 
-re: fclean all
+re:	fclean all
 
