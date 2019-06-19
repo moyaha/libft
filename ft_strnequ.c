@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/14 08:11:32 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/14 08:29:54 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/18 10:38:18 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int		ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	size_t i;
 
-	i =0;
+	i = 0;
 	if (!s1 && !s2)
 		return (1);
 	if (!s1 || !s2)

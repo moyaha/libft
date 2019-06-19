@@ -6,19 +6,19 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/31 09:32:27 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/05/31 09:39:00 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/17 16:24:19 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int     ft_tolower(int c)
+int		ft_tolower(int c)
 {
-    unsigned char x;
+	unsigned char x;
 
-    if (c >= 65 && c <= 90)
-        x = c + 32;
-    else
-        return (c);
-    return (x);
+	if (c >= 65 && c <= 90)
+		x = c + 32;
+	else
+		return (c);
+	return (x);
 }

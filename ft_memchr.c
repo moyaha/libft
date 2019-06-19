@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/30 11:41:35 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/05/30 14:45:23 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/17 12:54:08 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	size_t		i;
+	size_t	i;
 	char	*str;
 
 	i = 0;
