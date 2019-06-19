@@ -6,7 +6,7 @@
 #    By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/25 05:33:28 by pmoyaha           #+#    #+#              #
-#    Updated: 2019/06/19 14:31:06 by pmoyaha          ###   ########.fr        #
+#    Updated: 2019/06/19 17:36:02 by pmoyaha          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -122,11 +122,7 @@ OBJECT = ft_putchar.o\
 		 ft_putendl_fd.o\
 		 ft_itoa.o\
 		 ft_strsplit.o\
-
-temp: *.c
-	gcc -c *.c $(FLAGS) 
-	ar rc libft.a *.o
-
+		 
 all: $(NAME)
 
 $(NAME):
