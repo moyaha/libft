@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 23:15:55 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/22 00:17:31 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/25 09:39:50 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,12 @@ void	*ft_memalloc(size_t size);
 void	ft_memdel(void **ap);
 void	ft_strdel(char **as);
 void	ft_strclr(char *s);
+void	ft_lstdelone(t_list **alst, void (*del) (void * size_t));
+void	ft_lstdel(t_list **alst, void (*del) (void * size_t));
+void	ft_lstadd(t_list **alst, t_list *new);
+void	ft_lstiter(t_list *lst, t_list void (*f) (t_list *elem));
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+t_list	*ft_lstnew(void const *content, size_t content_size);
+t_list	*ft_lstmap(t_list *lst, t_list * (*f) (t_list *elem));
 #endif
