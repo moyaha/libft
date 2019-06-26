@@ -6,7 +6,7 @@
 #    By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/25 05:33:28 by pmoyaha           #+#    #+#              #
-#    Updated: 2019/06/22 00:03:24 by pmoyaha          ###   ########.fr        #
+#    Updated: 2019/06/26 16:35:22 by pmoyaha          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,6 +65,12 @@ SRC = ft_putchar.c\
 	  ft_putendl_fd.c\
 	  ft_itoa.c\
 	  ft_strsplit.c\
+	  ft_lstnew.c\
+	  ft_lstdelone.c\
+	  ft_lstdel.c\
+	  ft_lstmap.c\
+	  ft_lstadd.c\
+	  ft_lstiter.c\
 
 CC = gcc
 
@@ -122,6 +128,13 @@ OBJECT = ft_putchar.o\
 		 ft_putendl_fd.o\
 		 ft_itoa.o\
 		 ft_strsplit.o\
+		 ft_lstnew.o\
+		 ft_lstdelone.o\
+		 ft_lstadd.o\
+		 ft_lstdel.o\
+		 ft_lstmap.o\
+		 ft_lstiter.o\
+
 		 
 all: $(NAME)
 
