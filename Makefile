@@ -6,7 +6,7 @@
 #    By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/05/25 05:33:28 by pmoyaha           #+#    #+#              #
-#    Updated: 2019/06/26 16:35:22 by pmoyaha          ###   ########.fr        #
+#    Updated: 2019/06/26 17:02:45 by pmoyaha          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -140,7 +140,7 @@ all: $(NAME)
 
 $(NAME):
 	$(CC) -c $(FLAGS) $(SRC)
-	ar rc $(NAME) $(OBJECT)
+	ar -rc $(NAME) $(OBJECT)
 	ranlib $(NAME)
 
 clean:

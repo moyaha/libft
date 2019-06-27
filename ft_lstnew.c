@@ -6,7 +6,7 @@
 /*   By: pmoyaha <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/25 08:55:40 by pmoyaha           #+#    #+#             */
-/*   Updated: 2019/06/26 15:31:29 by pmoyaha          ###   ########.fr       */
+/*   Updated: 2019/06/27 09:17:25 by pmoyaha          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,10 @@ t_list	*ft_lstnew(void const *content, size_t content_size)
 			((char *)new->content)[i] = ((char *)content)[i];
 			i++;
 		}
+		new->content_size = content_size;
+	}
+	else
+	{
 		new->content = NULL;
 		new->content_size = 0;
 	}
